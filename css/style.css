@@ -1,0 +1,85 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	font-family: 'roboto',sans-serif;
+}
+.contener{
+	max-width: 1194px;
+	margin: auto;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+}
+.auth {
+	margin-left: auto;
+}
+.seearh-form{
+	margin-left: 76px;
+	background: rgba(238, 238, 238, 0.71);
+	border-radius: 10px;
+	display: flex;
+	max-width: 602px;
+	flex-grow: 1;
+	position: relative;
+	
+}
+.seearh-input{
+	background-color: transparent;
+	border: none;
+	width: 100%;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.seearh-button{
+	border: none;
+	background: transparent ;
+	right: 0;
+	top: 0;
+	height: 100%;
+	position: absolute;
+	padding-right: 18px;
+	padding-left: 18px;
+	cursor: pointer;
+}
+.login{
+	background: #EBEBEB;
+	border-radius: 50px;
+	padding: 16px 30px;
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 16px;
+
+	color: #000000;
+}
+.sopping-cart{
+	position: relative;
+	width: 49px;
+	height: 49px;
+	border-radius: 50%;
+	background: #F66A15;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 30px;
+	text-decoration: none;
+
+}
+.shop-counter{
+	position: absolute;
+	background: #FFAF19;
+	display: block;
+	padding: 5px ;
+	border-radius: 50%;
+	color: #000;
+	font-size: 8px;
+	line-height: 9px;
+	right: 0;
+	bottom: 0;
+}
